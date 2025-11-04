@@ -1,0 +1,71 @@
+\include{preamble}
+
+\begin{document}
+	
+\title{(Title) CE 6711 Course Project Instruction and Report Template}
+\author[]{(Author) Zhengtian Xu}
+\affil[]{Department of Civil and Environmental Engineering\\George Washington University\\ \href{mailto:zhengtian@gwu.edu}{\color{blue}{zhengtian@gwu.edu}}}
+
+\date{(Submission Date)}
+\maketitle
+
+
+\begin{abstract}
+\noindent The Abstract should be a stand-alone summary of the contents of the project, equaling 250 words or less.  It should present the primary objectives and scope of the study, techniques, methods or approaches briefly described and a concise summary of findings and/or conclusions reached.\par
+\end{abstract}
+
+{\small\emph{Keywords}: Format Example, Guide, Four Keywords in Maximum}
+
+
+\section{Introduction}
+This course project is for you to propose and solve an optimization problem in your research area. The report must start with an introduction and end with a conclusion section. The introduction section should position and describe the background of your project as I (and other potential readers) may not be familiar with the topic that you work on. The conclusion section should summarize the major tasks, results, and point out the future research extensions. For the main body, the structure and contents are up to your discretion. \emph{But for whatever contents that are not your patent or resulted from the discussions with other students, you \textbf{HAVE TO} explicitly cite the sources or acknowledge the contributions of others. Repetitive contents without appropriate citations will be treated as plagiarism and result in severe penalties.}
+
+To better structure your discussions, you may use sublevel sections. The following two sublevel sections suggest and exemplify how to write, cite references, figures, and tables.
+
+\section{Miscellaneous Things}
+\subsection{Writing using \LaTeX}
+Even though it is not required, but I highly recommend you to write the report using \LaTeX. You will write many equations, create tables, and figures in this project. You will find that it is much easier to mange the numbering system with \LaTeX. Give it a try if you haven't done so. It will certainly smooth your future paper development.
+
+\subsection{Citation}
+Academic writing involves extensive citations, and here we specify the way of citing references. Citations in this report should be formatted in \href{https://en.wikipedia.org/wiki/APA_style}{\emph{APA style}}. This document prepared by the University of Toledo provides a detailed guidance in addressing the questions of ``what'' and ``how'': \url{https://www.utoledo.edu/library/help/guides/docs/apastyle.pdf}. A quick way to learn the use of APA style is probably to look at an existing literature that adopts APA citations, e.g., \cite{nie2017can, daganzo2019public, xu2019equilibrium}.
+
+You may be troubled by the tedious tasks of collecting all the information for framing the citations. Here, I teach you an easy way of retrieving the formatted APA citations:
+\begin{enumerate}
+	\item Search the paper that you want to cite in Google Scholar, e.g., I want to cite ``Equilibrium analysis of urban traffic networks with ride-sourcing services'', and you will see the window appeared as Figure \ref{fig1}.
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.65\textwidth]{Pics/Search_window}
+		\caption{Paper search window}
+		\label{fig1}
+	\end{figure}
+	\item Click the double-quote symbol at the bottom of the paper description. A pop-up window will show up like Figure \ref{fig2}. Then, you can copy/paste and use the APA-style reference.
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.65\textwidth]{Pics/Apa_style_citation}
+		\caption{APA style citation}
+		\label{fig2}
+	\end{figure}
+\end{enumerate}
+
+
+\subsection{Presentation for Course Project}
+The course project will be shared with the whole class through lightning talks on December 3, 2025 (the project report will be due by Friday, December 5). Each student should prepare a 17-minute presentation plus 3 minutes for Q\&A. You will be instructed to upload the slides before December 3, so plan ahead to make sure you finish the project by then.
+
+\subsection{Final Deliverable}
+The final deliverable should include \emph{a well-documented final project report as well as the python codes and their required data inputs}. The report should document why and how each component of your model is materialized and composed for the problem that you aim to solve. For the codes submitted, please make sure that I can directly run some ``main'' file and retrieve the same results that you presented in your report.
+
+\section{Conclusions}
+The conclusion section summarizes your project:
+\begin{itemize}
+	\item What are the research questions?
+	\item How are they addressed by your model?
+	\item Discussions of performance, results, and implications.
+\end{itemize}
+I highly suggest you start the project as early as possible, in case of time shortage at the end of the semester.
+
+
+%\bibliographystyle{apacite}
+\bibliographystyle{apalike}
+%\nocite{*}
+\bibliography{mybib}
+\end{document}
